@@ -237,6 +237,11 @@ class ReturnOperation extends ReferencesOperation
         }
     }
 
+    /**
+     * @param int $resellerId
+     * @param string $event
+     * @return string[]
+     */
     public function getEmailsByPermit(int $resellerId, string $event): array
     {
         // fakes the method
